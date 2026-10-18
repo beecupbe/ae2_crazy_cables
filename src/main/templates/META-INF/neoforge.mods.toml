@@ -9,6 +9,7 @@ displayName="${mod_name}"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/crazy-ae2-cables"
 authors="${mod_authors}"
 description='''${mod_description}'''
+logoFile="logo.png"
 [[mixins]]
 config="mixins.${mod_id}.json"
 [[dependencies.${mod_id}]]
