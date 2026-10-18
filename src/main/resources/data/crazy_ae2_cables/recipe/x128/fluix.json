@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "ae2:fluix_smart_dense_cable"
+    },
+    "b": {
+      "item": "ae2:matter_ball"
+    }
+  },
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "result": {
+    "id": "crazy_ae2_cables:fluix_cable_x128"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "crazy_ae2_cables:fluix_cable_x128"
+    },
+    "b": {
+      "tag": "c:dyes/brown"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "id": "crazy_ae2_cables:brown_cable_x128"
+  },
+  "show_notification": true
+}
