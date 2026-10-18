@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPLv3"
+[[mods]]
+modId="${mod_id}"
+issueTrackerURL="https://github.com/beecupbe/ae2_crazy_cables/issues"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/crazy-ae2-cables"
+version="${mod_version}"
+displayName="Crazy AE2 Cables"
+authors="Beecube31"
+description='''Just a Crazy addon that adds crazy cables for AE2'''
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="ae2"
+    mandatory=true
+    versionRange="${ae2_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="simple_updates_checker"
+    mandatory=true
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="CLIENT"

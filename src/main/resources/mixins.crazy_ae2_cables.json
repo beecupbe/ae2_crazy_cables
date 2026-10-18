@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "dev.beecube31.crazycables.mixins",
+  "refmap": "mixins.crazy_ae2_cables.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "core.channelsystem.MixinGridNode",
+    "core.channelsystem.MixinManagedGridNode",
+    "core.channelsystem.MixinCablePart",
+    "core.devices.MixinDriveBlockEntity"
+  ],
+  "client": [
+    "core.client.parts.MixinCableBusContainer",
+    "core.client.parts.MixinCableBusRenderState",
+    "core.client.parts.MixinCableBuilder",
+    "core.client.parts.MixinCableBusBakedModel"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

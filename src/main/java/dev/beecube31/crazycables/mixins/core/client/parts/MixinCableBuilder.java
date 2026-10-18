@@ -1,0 +1,30 @@
+package dev.beecube31.crazycables.mixins.core.client.parts;
+
+import dev.beecube31.crazycables.client.rendering.parts.CrazyCableBuilder;
+import dev.beecube31.crazycables.common.interfaces.mixin.render.ICrazyCableBuilderHolder;
+import net.minecraft.client.renderer.texture.TextureAtlasSprite;
+import net.minecraft.client.resources.model.Material;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Unique;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import java.util.function.Function;
+
+@Mixin(targets = "appeng.client.render.cablebus.CableBuilder", remap = false)
+public abstract class MixinCableBuilder implements ICrazyCableBuilderHolder {
+
+    @Unique
+    private CrazyCableBuilder crazyae$crazyCableBuilder;
+
+    @Inject(method = "<init>", at = @At("RETURN"))
+    private void crazyae$init(Function<Material, TextureAtlasSprite> spriteGetter, CallbackInfo ci) {
+        this.crazyae$crazyCableBuilder = new CrazyCableBuilder(spriteGetter);
+    }
+
+    @Override
+    public CrazyCableBuilder crazyae$getCrazyCableBuilder() {
+        return this.crazyae$crazyCableBuilder;
+    }
+}

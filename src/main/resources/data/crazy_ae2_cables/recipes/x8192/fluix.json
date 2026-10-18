@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "crazy_ae2_cables:fluix_cable_x2048"
+    },
+    "b": {
+      "item": "ae2:quantum_entangled_singularity"
+    }
+  },
+  "pattern": [
+    "bab",
+    "aba",
+    "bab"
+  ],
+  "result": {
+    "item": "crazy_ae2_cables:fluix_cable_x8192"
+  }
+}

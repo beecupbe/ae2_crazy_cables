@@ -1,0 +1,6 @@
+{
+  "parent": "ae2:item/covered_cable_base",
+  "textures": {
+    "base": "crazy_ae2_cables:part/cable/x512/lime"
+  }
+}

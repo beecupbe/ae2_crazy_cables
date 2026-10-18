@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "crazy_ae2_cables:fluix_cable_x2048"
+    },
+    "b": {
+      "tag": "forge:dyes/light_gray"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "item": "crazy_ae2_cables:light_gray_cable_x2048"
+  },
+  "show_notification": true
+}
