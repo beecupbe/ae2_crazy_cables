@@ -9,6 +9,7 @@ version="${mod_version}"
 displayName="Crazy AE2 Cables"
 authors="Beecube31"
 description='''Just a Crazy addon that adds crazy cables for AE2'''
+logoFile="logo.png"
 
 [[dependencies.${mod_id}]]
     modId="forge"
