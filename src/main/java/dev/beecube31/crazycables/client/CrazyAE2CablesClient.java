@@ -17,7 +17,7 @@ public final class CrazyAE2CablesClient {
         modBus.addListener(CrazyAE2CablesClient::registerItemColors);
 
         new UpdateChecker(CrazyAE2Cables.MODID, "Crazy AE2 Cables",
-                "https://raw.githubusercontent.com/beecupbe/ae2_crazy_cables/refs/heads/master/updates.json");
+                "https://raw.githubusercontent.com/beecupbe/ae2_crazy_cables/refs/heads/main/updates.json");
     }
 
     private static void registerItemColors(RegisterColorHandlersEvent.Item event) {
