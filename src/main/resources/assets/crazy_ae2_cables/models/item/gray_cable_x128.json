@@ -1,0 +1,7 @@
+{
+  "parent": "crazy_ae2_cables:item/crazy_cable_base",
+  "textures": {
+    "base": "crazy_ae2_cables:part/cable/x128/gray",
+    "emissive": "crazy_ae2_cables:part/cable/emissive/x128"
+  }
+}

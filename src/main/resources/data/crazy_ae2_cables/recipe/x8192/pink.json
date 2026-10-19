@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": "crazy_ae2_cables:fluix_cable_x8192",
+    "b": "#c:dyes/pink"
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "id": "crazy_ae2_cables:pink_cable_x8192"
+  },
+  "show_notification": true
+}

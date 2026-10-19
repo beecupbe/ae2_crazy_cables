@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": "crazy_ae2_cables:fluix_cable_x128",
+    "b": "#c:dyes/green"
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "id": "crazy_ae2_cables:green_cable_x128"
+  },
+  "show_notification": true
+}

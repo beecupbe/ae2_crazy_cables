@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "crazy_ae2_cables:item/black_cable_x128",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -1
+      },
+      {
+        "type": "ae2:color",
+        "color": "black",
+        "variant": "dark"
+      },
+      {
+        "type": "ae2:color",
+        "color": "black",
+        "variant": "medium"
+      },
+      {
+        "type": "ae2:color",
+        "color": "black",
+        "variant": "bright"
+      },
+      {
+        "type": "ae2:color",
+        "color": "black",
+        "variant": "medium_bright"
+      }
+    ]
+  }
+}

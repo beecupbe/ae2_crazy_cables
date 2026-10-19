@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "crazy_ae2_cables:item/light_blue_cable_x512",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -1
+      },
+      {
+        "type": "ae2:color",
+        "color": "light_blue",
+        "variant": "dark"
+      },
+      {
+        "type": "ae2:color",
+        "color": "light_blue",
+        "variant": "medium"
+      },
+      {
+        "type": "ae2:color",
+        "color": "light_blue",
+        "variant": "bright"
+      },
+      {
+        "type": "ae2:color",
+        "color": "light_blue",
+        "variant": "medium_bright"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": "crazy_ae2_cables:fluix_cable_x128",
+    "b": "ae2:singularity"
+  },
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "result": {
+    "id": "crazy_ae2_cables:fluix_cable_x512"
+  }
+}

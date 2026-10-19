@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "crazy_ae2_cables:item/brown_cable_x8192",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -1
+      },
+      {
+        "type": "ae2:color",
+        "color": "brown",
+        "variant": "dark"
+      },
+      {
+        "type": "ae2:color",
+        "color": "brown",
+        "variant": "medium"
+      },
+      {
+        "type": "ae2:color",
+        "color": "brown",
+        "variant": "bright"
+      },
+      {
+        "type": "ae2:color",
+        "color": "brown",
+        "variant": "medium_bright"
+      }
+    ]
+  }
+}
